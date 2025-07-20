@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.login__page {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+}
+
+.login__img  img {
+    width: 720px;
+    height: calc(100vh - 60px);
+    display: block;
+    border-radius: 5%;
+}
+
+h2 {
+    color: #3e43dc;
+}
+
+.google__login__btn {
+    width: 100%;
+    display: flex;
+    height: 50px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    background-color: #3e43dc;
+    color: white;
+    cursor: pointer;
+    margin: 24px 0px;
+}
+
+.google__login__btn:hover {
+    background-color: #06069bc2;
+    transition: 0.5s;
+}
+
+.login__form {
+    width: 800px;
+    margin: 0px 100px;
+}
+
+.login__form hr {
+    margin: 10px 0px;
+}
+
+.login__form h2 {
+    margin: 24px 0px;
+}
+
+.logo__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 0px;
+}
+
+ input {
+    display: flex;
+    padding: 16px;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: bisque;
+    margin-top: 20px;
+    color: black;
+ }
+
+ form .form__group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ }
+
+ form button {
+    display: flex;
+    width: 100%;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #3e43dc;
+    color: white;
+    margin: 24px 0px;
+    cursor: pointer;
+ }
+
+ form button:hover {
+    background-color: #06069bc2;
+    transition: 0.5s;
+}
+
+#garip__text {
+    color: #3e43dc;
+}
+
+small {
+font-size: 16px;
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 750px) {
+    .login__img img {
+        display: none;
+    }
+}
